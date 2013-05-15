@@ -24,7 +24,7 @@
     <script type="text/javascript">
     $(document).ready(function()
       {
-        $.get('myxmlfile.xml', function(d){
+        $.get('http://crosspointmkt.com/myxmlfile.xml', function(d){
         $('#podcast').append('<dl />');
 
         $(d).find('sermon').each(function(){
